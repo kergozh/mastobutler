@@ -1,0 +1,65 @@
+###########################
+#    Mastodon replay bot   #
+###########################
+
+# App Info
+app:
+  # [String] Name of the app
+  name: "butler"
+  # [String] actions filename
+  actions_file_name: "actions.yaml" 
+
+# Mastobot config
+bot:
+  # [String] Name of the app
+  app_name: "butler"
+  # [String]  Instance hostname 
+  hostname: "frikiverse.zone"
+  # [String] Access type: Access Token = "AT" | Credentials = "CR" 
+  access_type: "CR"
+
+# Mastobot access token configuration
+access_token:
+  # [String] client id
+  client_id: "aaa"
+  # [String] Client secret
+  secret: "bbb"
+  # [String] Access token
+  token: "ccc"
+
+# Mastobot credentials configuration
+credentials:
+  # [Bool] With credentials, force log in
+  force_login: False
+  # [String] Name of the secrets directory
+  secrets_directory: "secrets"
+  # [String] Name of the secrets file path
+  secrets_file_name: "secrets.txt"
+
+# Testing options
+testing:
+  # [Bool] Disable push the answer to Mastodon
+  disable_post: False
+  # [Bool] Disable push the answer to Mastodon
+  disable_dismiss: True
+  # [Bool] get notifications from file test
+  test_file: False
+  # [String] Name of the test file
+  test_file_name: "notif.yaml"
+
+# Logging config
+logger:
+  # [Integer] Log level: NOTSET=0 | DEBUG=10 | INFO=20 | WARN=30 | ERROR=40 | CRITICAL=50
+  loglevel: 10
+  # [String] Name of the logger
+  name: "mastobutler_bot"
+  # [Bool] Dump the log into a file
+  to_file: False
+  # [String] Directory of the logger
+  directory: "log"
+  # [String] Filename of the log file
+  filename: "mastobutler_bot.log"
+  # [Bool] Dump the log into a stdout
+  to_stdout: True
+  # [String] Format of the log
+  format: "[%(asctime)s] %(levelname)-8s %(name)-12s %(message)s"
