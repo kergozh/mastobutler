@@ -14,6 +14,7 @@ class Bot(Mastobot):
 
         super().__init__(botname = botname)
 
+        self.init_publish_bot()
         self.init_replay_bot()
 
 
