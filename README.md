@@ -14,7 +14,7 @@ Within Python Virtual Environment:
 
 1. Optionally, create a new user for running the bot: `adduser --disabled-login user_name`
 
-2. Clone the repository `git clone https://github.com/lgbaixauli/mastobutler.git` 
+2. Clone the repository `git clone https://github.com/kergozh/mastobutler.git` 
 
 3. Crate a virtual environment `python3 -m venv .venv` and activate it `source .venv/bin/activate`
 
