@@ -39,7 +39,7 @@ credentials:
 # Testing options
 testing:
   # [Bool] Disable push the answer to Mastodon
-  disable_post: False
+  disable_post: True
   # [Bool] Disable push the answer to Mastodon
   disable_dismiss: True
   # [Bool] get notifications from file test

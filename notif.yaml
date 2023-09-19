@@ -1,5 +1,4 @@
 {'id': 5, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@igor namarië'}
 {'id': 6, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@lambebot namarie -l q'}
 {'id': 7, 'type': 'admin.sign_up', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@igor -s thangorodrim'}
-{'id': 132409, 'type': 'admin.sign_up', 'created_at': datetime.datetime(2023, 9, 19, 19, 53, 2, 462000, tzinfo=tzutc()), 'account': {'id': 111093552319788810, 'username': 'prova', 'acct': 'prova', 'display_name': 'prova', 'locked': False, 'bot': False, 'discoverable': None, 'group': False, 'created_at': datetime.datetime(2023, 9, 19, 0, 0, tzinfo=tzutc()), ...}}
 {'id': 8, 'type': 'mention', 'acct': 'kergozh', 'id2': 0, 'in_reply_to_id': None, 'visibility': 'public', 'language': 'es', 'content' : '@igor --search thangorodrim -l q'}
